@@ -35,8 +35,9 @@ class App extends React.Component{
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Charts data={data} country={country}/>
-                <h4>© 2020 TechSiege, 
-                    Designed and Developed by: Fazal Ur Rehman Azad</h4>
+                
+                <h6>© 2020 TechSiege, 
+                    Designed and Developed by: Fazal Ur Rehman Azad</h6>
             </div>
         )
     }
