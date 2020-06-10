@@ -32,12 +32,12 @@ class App extends React.Component{
         return(
             <div className={styles.container}>
                 <img className={styles.image} src={coronaImages} alt="COID-19"/>
-                <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
+                <Cards data={data}/>
                 <Charts data={data} country={country}/>
                 
                 <h6>© 2020 TechSiege, 
-                    Designed and Developed by: Fazal Ur Rehman Azad</h6>
+                    D&D by: Fazal Ur Rehman Azad</h6>
             </div>
         )
     }
